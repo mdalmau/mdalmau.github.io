@@ -1,3 +1,6 @@
+# avergage pages per book: 457; avergae words per page: 250
+# david mclure's distribution of words across narrative time
+
 pages_books = 457
 words_page = 250
 segments = 100

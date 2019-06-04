@@ -14,6 +14,21 @@ my_address = {
 #fruits = ['apple', 'kiwi','orange']
 #for fruit in fruits:
 #    print(fruit)
+#if fruits[0] == "orange":
+#        print("Yum!")
+#elif fruits[0] == "kiwi" or fruits[0] == "apple":
+#    print("Meh")
+#else:
+#    print("Not bad.")
+
+age = 1
+if age > 0 and age <=  2:
+    print("baby")
+elif age > 2 and age < 18:
+    print("child")
+else:
+    print("adult")
+
 
 #results = []
 #for item in fruits:
@@ -40,11 +55,19 @@ my_address = {
 #results = ['Hi my name is ' + name for name in names]
 
 #exercise
-numbers = [1,2,3,4,5]
-data = []
+#numbers = [1,2,3,4,5]
+#data = []
 #for item in numbers:
 #    data.append(item-10)
 #print(data)
 
-data = [item -10 for item in numbers]
-print(data)
+#data = [item -10 for item in numbers]
+#print(data)
+
+#exercise places
+# make a list
+#vacation = ["Cuba", "Hungary", "Japan", "London"]
+# go oever each item in the list
+#for place in vacation:
+    #print  each place in the list
+#    print("I would like to visit " + place  + ".")
