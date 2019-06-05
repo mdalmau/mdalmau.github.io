@@ -1,34 +1,61 @@
+## Exercise Spellings
+
+# store  the data
+words = ['color','color','colour','amok','amok','amuck','adviser','advisor','adviser','pepper']
+canonical_spellings = ['color','amuck','adviser','pepper']
+
+#make dictionary for the correct spelling
+mappings = {'colour':'color','amok':'amuck','advisor':'adviser'}
+
+#make an empty list
+new_list = []
+
+#loop over words
+for word in words:
+    # check to see if word is misspelled
+    if word in mappings:
+        # if word is misspelled don't something
+        correct_word = mappings[word]
+            # correct  Spelling using mappings dictionary
+            # use name of key when checking a dictionary
+        new_list.append(correct_word)
+            # add to list
+    else:
+        # if a word is correct we will do something else
+        new_list.append(word)
+print(new_list)
+
 ##  Exercise COLLECTIONS
 # step 1: create the collections
-texts = {
-"Jane Eyre":"1847",
-"Antes que anochezca":"1992"
-}
+#texts = {
+#"Jane Eyre":"1847",
+#"Antes que anochezca":"1992"
+#}
 
 # use the items method for dictionaries to create an order
 # need to "name" the key:value pair so title and date (could be any words)
-for title, date in texts.items():
-    print(title + " was published in " + date + ".")
+#for title, date in texts.items():
+#    print(title + " was published in " + date + ".")
 
 
 ##  METHOD that calls another METHOD
-def method_one():
-    print("look I'm a method")
+#def method_one():
+#    print("look I'm a method")
 
-def method_two(name):
-    print("about to call our first method for " + name)
-    method_one()
-method_two("Michelle")
+#def method_two(name):
+#    print("about to call our first method for " + name)
+#    method_one()
+#method_two("Michelle")
 
-def love():
-    print("I love them!")
+#def love():
+#    print("I love them!")
 
-def family(name):
-    print("Let me introduce my family: " + name)
-    love()
-names = ["Mia, my daughter", "Jude, my son","Patrick, my son","Olivia, my daughter","Hugo, my dog","John, my partner"]
-for name in names:
-    family(name)
+#def family(name):
+#    print("Let me introduce my family: " + name)
+#    love()
+#names = ["Mia, my daughter", "Jude, my son","Patrick, my son","Olivia, my daughter","Hugo, my dog","John, my partner"]
+#for name in names:
+#    family(name)
 
 
 
